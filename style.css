@@ -129,8 +129,11 @@ nav ul li:hover{
 }
 
 .page2 > h1 {
-    width: 75%;
+    width: 70%;
     margin-bottom: 5%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #1E1E1E;
 }
 
 .page2 > hr {
