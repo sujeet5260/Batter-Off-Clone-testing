@@ -26,7 +26,6 @@ nav{
     top: 0;
     z-index: 100;
     padding:1.875rem 1.875rem;
- 
    
   
 }
@@ -39,12 +38,10 @@ nav >ul{
     align-items: center;
     font-size: 1.7rem;
     font-weight: 600;
-    
 }
 nav ul li{
     padding-top: 0.313rem;
     transition: 1s all;
-  
   
 }
 nav ul li:hover{
@@ -56,7 +53,6 @@ nav ul li:hover{
 }
 .page1{
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -122,86 +118,71 @@ nav ul li:hover{
     
 }
 
-.page2{
+
+.page2 {
     width: 100%;
-    height: 60vh;
-   
+    padding: 0 30px;
 }
 
-.page2-content {
-    width: 100%;
-   font-size: 25px;
-   /* display: flex;
-   flex-direction: column;
-   justify-content: space-around; */
-    
-    
-    
+.page2 > h1:first-child {
+    margin-top: 10%;
 }
 
-.page2-content h1{
-    width: 60%;
-    padding-bottom: 30px;
-    margin: 30px 30px;
-    font-weight: 900;
-    
+.page2 > h1 {
+    width: 75%;
+    margin-bottom: 5%;
 }
 
-.line-div{
-    width: 100%;
-    height: 0.2%;
-    background-color:#969892;
+.page2 > hr {
     border: none;
- 
+    margin-bottom: 5%;
+    height: 1px;
+    background-color: rgb(220, 220, 220);
 }
 
-.page3{
+.page3 {
     width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-  
-    
-  
-}
-.page3 .container{
-    width: 100%;
-    margin: 15px 30px;
+    padding: 0 30px;
     display: flex;
-    justify-content: space-between;
-  
-}
-.page3 .container .left{
-    width: 50%;
-    
-}
-.page3 .container .left img{
-    margin-right: 10px;
+    margin-bottom: 5%;
 }
 
-.page3 .container .center{
-    width: 30%;
-}
-.page3 .container .right{
-    width: 20%;
-    margin-left: 40px;
-  
-   
-}
-
-.page3 .center h1 {
-    width: 100%;
-
-    font-size: 30px;
-    list-style: 38px;
+.page3 > h1:first-child,
+.page4nav > h1:first-child {
+    width: 45%;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 30px ;
 }
-.page3 .center div{
-    margin-bottom: 50px;
-    width: 100%;
+
+.page3 > h1:first-child > span,
+.page4nav > h1:first-child > span {
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
-.page3 .center p{
-    color: #949690;
-    font-size: 28px;
-    font-weight: 500;
+
+.page3 div {
+    width: 35%;
+}
+
+.page3 > div h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.page3 > div p {
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #939691;
+}
+
+.page3 h1:last-child {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    width: 20%;
 }
