@@ -174,9 +174,45 @@ main{
 }
 .page3 .center-content p{
     color: #949690;
-    font-size: 26px;
+    font-size: 27px;
 
 }
 .page3 .right-content{
     text-align: end;
 }
+
+/*=======================  PAGE 4 START =========================*/
+
+.page4{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+.page4-nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0 30px;
+    margin-top: 60px;
+}
+.page4-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+}
+.page4-content{
+    position: relative;
+    font-size: 300px;
+    font-weight: 900;
+    font-family: babas;
+    text-align: center;
+}
+.page4-content > video{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
