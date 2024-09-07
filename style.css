@@ -12,6 +12,7 @@ html,body{
 body{
     background-color: #E5E7DF;
     font-family: Helvetica;
+    
   
 }
 header{
@@ -44,6 +45,11 @@ nav > ul a {
 }
 main{
     width: 100%;
+}
+
+.page1 > .page1-fillar{
+    height: 20vh;
+
 }
 
 .page1{

@@ -1,0 +1,177 @@
+              /*=================== Page 1 ================*/
+
+
+    @media (min-width: 360px) and (max-width: 600px) {
+        .body{
+            /* overflow-x: hidden; */
+            font-family: helvetica;
+        }
+    
+         header >  nav > ul , header > nav > h2 {
+            display: none;
+        }
+    
+         header >nav> h1{
+            font-size: 24px;
+        }
+    
+         .page1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        }
+        .page1 .page1-fillar{
+        width: 100%;
+       height: 15vh;
+       }
+    
+      .page1 .content{
+        width: inherit;
+        display: flex;
+       flex-direction: column;
+       }
+    
+       .page1 > .content  > .left {
+        width: inherit;
+        
+      }
+     
+        .page1 > .content  > .left p{
+            width: 70%;
+            font-size: 20px;
+    
+        }
+        .content > .left > button{
+          width: 40%;
+          font-size: 20px;
+          font-weight: 700;
+          margin-bottom: 30px;
+       }
+    
+        .page1 > .content > .right {
+           display: flex;
+           flex-wrap: wrap;
+       
+           width: inherit;
+        }
+
+        .page1 > .content > .right h1{
+             width: 90%;
+            font-size: 20px;
+            font-weight: 600;
+    
+        }
+        .page1 > .slider{
+             width: 100%;
+             margin: 30px 0;
+    
+        }
+         
+        .page1 > .slider .slider-inside > span{
+              font-size: 150px;
+    
+        } 
+    
+        .page1 .slider-inside > img{
+             height: 50px;
+        }
+    
+    
+    
+      /*=================== Page 2 ================*/
+    
+    
+          .page2{
+            width: 100%;
+        }
+        .page2 > h1{
+           width: 90%;
+           font-size: 20px;
+            font-weight: 600;
+        } 
+    
+    
+    
+     /*=================== Page 3 ================*/
+    
+    
+         .page3{
+            width: 100%;
+     
+        }
+        .page3 > .page3-content{
+           width: 91%;
+           display: block;
+    
+        }
+        .page3-content > .left-content ,h1{
+           width: 100%;
+           font-size: 20px;
+           font-weight: 600;
+        }
+       .page3-content > .left-content{
+          margin-bottom:40px ;
+        }
+    
+    
+        .page3-content > .center-content{
+          width: inherit;
+        }
+       .page3-content > .center-content  h1  {
+          width: 90%;
+          font-size: 20px;
+     
+        }
+        .page3-content > .center-content  p{
+            width: 90%;
+          font-size: 15px;
+        }
+        .page3  .right-content{
+           width: 100%;
+           text-align: start;
+           margin-bottom:20px ;
+      
+        } 
+
+
+        /*=================== Page 4 ================*/
+
+        .page4{
+            width: 100%;
+
+        }
+        .page4-nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+            margin-bottom: 37px;
+
+             
+        }
+        .page4-nav h1 {
+            font-size: 15px;
+        }
+        .page4-nav a{
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .page4-content {
+            font-size: 7rem;
+            font-weight: 900;
+      
+        }
+        .page4-content  video{
+            width: 25%;
+            height: 25%;
+        }
+
+
+
+
+
+
+
+
+     }
